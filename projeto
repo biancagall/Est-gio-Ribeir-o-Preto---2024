@@ -1,0 +1,48 @@
+K é inicializado como 0, então K é incrementado para 1. Soma é incrementado por 1. (soma = 0+1 = 1)
+depois, K é incrementado como 2. Soma é então incrementado por 2. (soma = 1+2 = 3).
+continua assim até a 13ª iteração, onde K é incrementado para 13 e a some é incrementado por 13
+então a soma será 78.
+
+2.#include <stdio.h>
+int main ( ) {
+int numero, verifica, a=0, b=1, c;
+while (a <= numero){
+if (a == numero){
+return 1;
+}
+c= a + b;
+a=b;
+b=c;
+printf ("digite o valor:");
+scanf ("%d", &numero);
+
+if (verifica (numero)){
+printf ("%d pertence a sequência de fibonacci", num);
+} else {
+printf ("%d não pertence a sequência de fibonacci", num);
+}
+return 0;
+}
+
+3. a) 9
+b) 128
+c) 49
+d) 100
+e) 13
+f) 20
+
+4. usando a sensação de calor da para identificar qual interruptor controla a lâmpada.
+ligar o interruptor, esperar um pouco pra ela esquentar e depois desligar esse primeiro interruptor para depois ligar o segundo. se ela estiver acesa, então o segundo interruptor controla a lâmpada, se não, toque na lâmpada para sentir se ela está quente.
+
+5.#include <stdio.h>
+int main (){
+int vet[5] = {0,1,2,3,4};
+printf ("Digite os valores:");
+for(int i=0; i<5; i++){
+scanf ("%d", &vet[i]);
+}
+for (int i=4; i>=0, i--){
+printf ("%d", vet[i]);
+}
+return 0;
+}
